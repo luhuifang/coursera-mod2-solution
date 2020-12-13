@@ -12,10 +12,13 @@ section{
 	background: #FFFFCC;
 	position: relative;
 }
-section, section > h2 {
+section {
 	border: 1px solid black;
 }
 section > h2{
+	border: 1px solid black;
+	border-top: 0;
+	border-right: 0;
 	position: absolute;
 	top: 0;
 	right: 0;
